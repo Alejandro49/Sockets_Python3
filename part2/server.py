@@ -17,7 +17,7 @@ while True:
     msg = "holas"
     # fString
     mensaje = f"{len(msg):<{HEADERSIZE}}" + msg
-    
+
     ns.send(bytes(mensaje, "utf-8"))
 
 
